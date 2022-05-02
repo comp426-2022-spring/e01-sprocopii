@@ -39,9 +39,11 @@ h1 #register {
 
 hr {
   /* 14. Override default hr style with a 30-pixel bottom margin */
-  
+  margin-bottom: 30px;
   /* 15. Add a 2-pixel solid azure border (look up the hex code). */
-  
+  border-style: solid;
+  border-color: azure;
+  border-width: 2px;
 }
 
 /* 16. Set a style for the submit button with "registerbtn" class */
